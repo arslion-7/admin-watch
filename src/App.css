@@ -1,4 +1,39 @@
-#root {
+/* Styles for App layout */
+
+.logo-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.logo {
+  border-radius: 6px;
+}
+
+.site-layout {
+  padding: 24px;
+  min-height: 280px;
+}
+
+.ant-layout-header {
+  background-color: #001529;
+  color: white;
+}
+
+.ant-layout-footer {
+  text-align: center;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +74,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
