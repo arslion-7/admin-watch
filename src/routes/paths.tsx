@@ -1,8 +1,5 @@
 export const PATHS = {
-  BUILDINGS: 'buildings',
-  REGISTRIES: 'registries',
-  GENERAL_CONTRACTORS: 'general_contractors',
-  SUB_CONTRACTORS: 'sub_contractors',
+  WATCHES: 'watches',
 
   //
   USERS: 'users',

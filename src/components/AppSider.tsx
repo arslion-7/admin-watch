@@ -25,9 +25,9 @@ export default function AppSider() {
 
   const items = [
     {
-      label: 'Models',
+      label: 'Watches',
       icon: <BuildOutlined />,
-      key: 'models',
+      key: 'watches',
     },
     {
       label: 'Settings',

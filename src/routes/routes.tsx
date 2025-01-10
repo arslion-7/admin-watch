@@ -7,11 +7,15 @@ import SignIn from '@/pages/SignIn';
 // import Users from '../pages/users/Users';
 // import User from '../pages/user/User';
 import { PATHS } from './paths';
+import Watches from '@/pages/watches/Watches';
 
 const AppRoutes: React.FC = () => {
   return (
     <Routes>
       <Route path='/' element={<App />}>
+        <Route path={PATHS.WATCHES}>
+          <Route index element={<Watches />} />
+        </Route>
         {/* <Route path={PATHS.USERS}>
           <Route index element={<Users />} />
           <Route path=':id' element={<User />} />
