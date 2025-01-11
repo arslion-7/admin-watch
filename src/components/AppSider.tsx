@@ -1,7 +1,7 @@
 import {
-  BuildOutlined,
+  ContainerOutlined,
   LoginOutlined,
-  SettingOutlined,
+  SettingOutlined
 } from '@ant-design/icons';
 import { Image, Layout, Menu } from 'antd';
 import { useEffect, useState } from 'react';
@@ -26,8 +26,8 @@ export default function AppSider() {
   const items = [
     {
       label: 'Watches',
-      icon: <BuildOutlined />,
-      key: 'watches',
+      icon: <ContainerOutlined />,
+      key: 'watches'
     },
     {
       label: 'Settings',
@@ -42,10 +42,10 @@ export default function AppSider() {
         {
           label: 'Sign out',
           key: PATHS.SIGNIN,
-          icon: <LoginOutlined />,
-        },
-      ],
-    },
+          icon: <LoginOutlined />
+        }
+      ]
+    }
   ];
 
   return (
