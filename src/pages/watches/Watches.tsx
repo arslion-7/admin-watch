@@ -19,7 +19,7 @@ const DeepARComponent = () => {
         const snapshot = await getDocs(watchesCollectionRef);
         const filteredData = snapshot.docs.map((doc) => ({
           ...(doc.data() as IWatch),
-          id: doc.id,
+          id: doc.id
         }));
         setWatches(filteredData);
         setIsLoadingWatches(false);
@@ -38,13 +38,13 @@ const DeepARComponent = () => {
     {
       title: 'id',
       dataIndex: 'id',
-      key: 'id',
+      key: 'id'
     },
     {
       title: 'Name',
       dataIndex: 'name',
-      key: 'name',
-    },
+      key: 'name'
+    }
   ];
 
   if (isLoadingWatches) return <Skeleton />;
